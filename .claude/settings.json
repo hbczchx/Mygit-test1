@@ -1,0 +1,6 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "$i = $input | Out-String; $j = $i | ConvertFrom-Json; $dir = $j.workspace.current_dir; $model = $j.model.display_name; $rem = $j.context_window.remaining_percentage; $ctx = if ($rem) { \"$rem% ctx\" } else { '' }; \"$dir  |  $model  |  $ctx\""
+  }
+}
