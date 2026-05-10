@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Language
+
+始终使用中文回复用户。
+
 ## Repository overview
 
 A single-file vanilla web countdown timer — no frameworks, build tools, or dependencies. Open `timer.html` directly in a browser to use. Theme preferences persist via `localStorage`.
